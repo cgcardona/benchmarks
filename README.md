@@ -2,6 +2,38 @@
 
 [Rust](https://www.rust-lang.org) is all about performance. Benchmarks are built in and can test the performance of your code.
 
+## Install
+
+First clone the repo
+
+```
+git clone https://github.com/cgcardona/benchmarks.git
+```
+
+Then `cd` in to the directory
+
+```
+cd benchmarks
+```
+
+Next build the app and dependenciess
+
+```
+cargo build
+```
+
+Make sure you're on the nightly build of rust
+
+```
+rustup default nightly
+```
+
+Then run the benchmarks
+
+```
+cargo bench
+```
+
 ## Usage
 
 ````
